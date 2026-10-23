@@ -1,0 +1,30 @@
+.side-bar {
+    top: 55px;
+    bottom: 0;
+    left: 0;
+    width: 72px;
+    font-size: 10px;
+    position: fixed;
+    z-index: 2;
+    background-color: white;
+}
+
+.side-bar-section {
+    margin-top: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 7px;
+    padding: 14px 0px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.box:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
